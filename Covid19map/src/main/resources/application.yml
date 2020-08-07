@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+epidemic:
+  url: http://api.tianapi.com/txapi/ncovcity/index
+  key: ${epidemicKey:0}
